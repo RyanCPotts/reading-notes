@@ -8,7 +8,7 @@
 - I can learn something from everyone.
 - Let's go!
 
-## Code 102:
+## Reading Notes Code 102:
 
 - [Class 1](./code-102/class-01.md)
 
@@ -48,11 +48,18 @@
 
 - [Class 8](./code-201/class-08.md)
 
-[My Github](https://github.com/RyanCPotts/)
+- [Class 9](./code-201/class-09.md)
 
-- [Class 7](./code-201/class-07.md)
+- [Class 10](./code-201/class-010.md)
 
-- [Class 8](./code-201/class-08.md)
+ [Class 11](./code-201/class-011.md)
 
+ [Class 12](./code-201/class-012.md)
+
+ [Class 13](./code-201/class-013.md)
+
+ [Class 14](./code-201/class-014.md)
+
+ [Class 15](./code-201/class-015.md)
 
 [My Github](https://github.com/RyanCPotts/)
