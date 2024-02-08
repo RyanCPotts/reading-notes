@@ -52,14 +52,14 @@
 
 - [Class 10](./code-201/class-010.md)
 
- [Class 11](./code-201/class-011.md)
+- [Class 11](./code-201/class-011.md)
 
- [Class 12](./code-201/class-012.md)
+- [Class 12](./code-201/class-012.md)
 
- [Class 13](./code-201/class-013.md)
+- [Class 13](./code-201/class-013.md)
 
- [Class 14](./code-201/class-014.md)
+- [Class 14](./code-201/class-014.md)
 
- [Class 15](./code-201/class-015.md)
+- [Class 15](./code-201/class-015.md)
 
 [My Github](https://github.com/RyanCPotts/)
