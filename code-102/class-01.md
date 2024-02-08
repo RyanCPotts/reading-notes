@@ -1,3 +1,5 @@
+# Code 102 Reading Notes
+
 # Class 1
 
 ## What is markdown?
