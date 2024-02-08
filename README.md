@@ -8,11 +8,8 @@
 - I can learn something from everyone.
 - Let's go!
 
-### Additionally:
-1. These
-2. Are
-3. Numbers
+## Code 102:
+- [Class 1](./code-102/class-01.md)
+
 
 [My Github](https://github.com/RyanCPotts/)
-
-
