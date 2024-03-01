@@ -1,4 +1,4 @@
-# Class 10
+# Class 10 - Debugging
 
 ### Name some key differences between a Syntax Error and a Logic Error.
 
