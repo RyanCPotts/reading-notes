@@ -1,0 +1,62 @@
+# Class04 - React and Forms
+
+### What is a ‘Controlled Component’?
+In React, a "controlled component" refers to a form element, such as an input or textarea, whose value is controlled by React state.
+
+In HTML, form elements typically maintain their own state. For example, an <input> element will manage its value internally, and you would use JavaScript to retrieve that value when needed. However, in React, you can choose to control the state of form elements by using React state.
+
+### Should we wait to store the users responses from the form into state when they submit the form OR should we update the state with their responses as soon as they enter them? Why.
+Updating State as the User Enters Responses:
+
+Immediate Feedback: Storing the user's responses in state as they enter them allows for immediate feedback and validation. You can provide instant feedback to the user, such as validating input fields in real-time or displaying character count for text inputs.
+Improved User Experience: Users can see their progress as they fill out the form, which can enhance the user experience by providing a sense of accomplishment and reducing the likelihood of errors.
+Potential Performance Impact: Depending on the complexity of the form and the frequency of state updates, there could be a performance impact from updating state frequently. However, modern React applications can handle frequent state updates efficiently in most cases.
+Waiting to Update State Until Form Submission:
+
+Reduced State Updates: By waiting until the user submits the form to update state, you can minimize unnecessary state updates and re-renders, which can improve performance, especially for larger forms or applications with many components.
+Simplified Validation: You can perform validation and processing of the entire form data at once when the user submits the form. This can simplify the validation logic compared to performing validation on individual fields as the user enters data.
+Delayed Feedback: Users may not receive immediate feedback on their input errors or the completeness of the form until they submit it. This could potentially lead to frustration or confusion if errors are discovered only after submission.
+In summary, the decision to update state as the user enters responses or wait until form submission depends on the specific requirements of the application, including considerations such as user experience, performance, and form complexity. For simple forms or forms where immediate feedback is important, updating state as the user enters responses may be preferable. However, for larger forms or applications where performance is a concern, waiting until form submission to update state may be more appropriate.
+
+### How do we target what the user is entering if we have an event handler on an input field?
+
+In React, you can target the user's input in an event handler on an input field by accessing the event object passed to the event handler function. The event object contains information about the event, including the value of the input field that triggered the event.
+
+Here's how you can target the user's input in an event handler on an input field:
+
+import React, { useState } from 'react';
+
+function InputField() {
+  const [inputValue, setInputValue] = useState('');
+
+  // Event handler to handle changes in the input field
+  const handleChange = (event) => {
+    // Access the value of the input field from the event object
+    const userInput = event.target.value;
+
+    // Update state with the user's input
+    setInputValue(userInput);
+  };
+
+  return (
+    <div>
+      {/* Input field with event handler */}
+      <input
+        type="text"
+        value={inputValue}
+        onChange={handleChange} // Event handler to handle changes
+      />
+      {/* Display the value of the input field */}
+      <p>User input: {inputValue}</p>
+    </div>
+  );
+}
+
+export default InputField;
+In the handleChange event handler function:
+
+event.target refers to the input field that triggered the event.
+event.target.value contains the current value of the input field.
+By accessing event.target.value, you can retrieve the user's input and use it as needed. In this example, the user's input is stored in the userInput variable and then used to update the state using setInputValue(userInput). Finally, the updated value is displayed in the component.
+
+This approach allows you to target and manipulate the user's input dynamically as they type into the input field.
