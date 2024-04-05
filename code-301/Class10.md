@@ -4,8 +4,7 @@
 
 In the context of JavaScript callbacks, a 'call' refers to the act of invoking or executing a function. When you call a function, you're instructing JavaScript to run the code defined within that function's body.
 
-### A "RangeError" is a type of error that occurs in JavaScript when a value is not within the range of acceptable values as defined by the language specification. Range errors typically occur when attempting to perform operations that result in values outside the allowable range or when using methods or functions with arguments that are out of bounds.
-How many ‘calls’ can happen at once?
+### How many ‘calls’ can happen at once?
 In JavaScript, only one function call can happen at a time in a single execution context. JavaScript is single-threaded, meaning it can only execute one piece of code at a time within a single thread of execution. This is often referred to as the event loop model.
 
 ### What does LIFO mean?
