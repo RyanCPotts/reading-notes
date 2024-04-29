@@ -1,4 +1,4 @@
-#Class 01
+# Class 01
 
 ### How would you describe Node to a non-technical friend?
 Imagine you have a big, bustling office building where people come to work on different tasks. Now, Node.js is like the superhero manager in that building. Instead of just handling paperwork or scheduling meetings like a regular manager, Node.js is super-powered because it can handle a ton of tasks all at once, and it's really fast at doing them!
